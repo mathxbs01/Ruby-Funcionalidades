@@ -1,32 +1,13 @@
-class Conta
-  attr_accessor :saldo, :nome
+class Carro
+  attr_accessor :nome #atributo
 
-  def initialize(nome)
-    self.saldo = 0.0
-
-    self.nome = nome
-  end
-
-  # valor é o argumento
-
-  def deposita(valor)
-    self.saldo += valor
-
-    # puts 'Depositando a quantia de ' + valor.to_s + ' reais.'
-
-    puts "Depositando a quantia de #{valor} reais na conta de #{self.nome}."
+  def ligar
+    puts 'O carro está pronto para iniciasr o trajeto.'  #método/função
   end
 end
 
-c = Conta.new('Papito') # instaciando para o metódo deposita
+civic = Carro.new
 
-# c.saldo = 0.0
-
-c.deposita(100.00)
-
-puts c.saldo
-c.deposita(10.00)
-
-puts c.saldo
-
-puts c.nome
+civic.nome = 'Civic'
+puts civic.nome
+civic.ligar
