@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="20" skipped="0" failures="1" errors="0" time="0.100237" timestamp="2021-08-16T14:19:16-03:00" hostname="DESKTOP-2BCPEPV">
+<properties>
+<property name="seed" value="61320"/>
+</properties>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve adicionar um vingador" file="./spec/avengers_spec.rb" time="0.014141"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve adicionar uma lista de vingadores" file="./spec/avengers_spec.rb" time="0.009488"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter thor deve ser o primeiro da lista" file="./spec/avengers_spec.rb" time="0.003271"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter Ironman deve ser o último da lista" file="./spec/avengers_spec.rb" time="0.000385"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve conter o sobrenome" file="./spec/avengers_spec.rb" time="0.003141"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o valor é positivo entao atualiza saldo" file="./spec/bank/saque_cc_spec.rb" time="0.000365"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é zero então exibe mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.002797"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é zero e o saldo final com zeros" file="./spec/bank/saque_cc_spec.rb" time="0.002616"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é insuficiente então exibe mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000242"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando o saldo é insuficiente e o saldo permance" file="./spec/bank/saque_cc_spec.rb" time="0.000158"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando supera o limite de saque então exibe mensagem" file="./spec/bank/saque_cc_spec.rb" time="0.000195"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="ContaCorrente Saque quando supera o limite de saque e o saldo permanece" file="./spec/bank/saque_cc_spec.rb" time="0.000132"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o valor é positivo entao atualiza saldo" file="./spec/bank/saque_cp_spec.rb" time="0.049163"><failure message="expected 798.01 to match 798.0" type="RSpec::Expectations::ExpectationNotMetError">Failure/Error: expect(@cp.saldo).to match 798.00
+  expected 798.01 to match 798.0
+./spec/bank/saque_cp_spec.rb:11:in `block (4 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é zero então exibe mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000181"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é zero e o saldo final com zeros" file="./spec/bank/saque_cp_spec.rb" time="0.000139"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é insuficiente então exibe mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.002738"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando o saldo é insuficiente e o saldo permance" file="./spec/bank/saque_cp_spec.rb" time="0.000145"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando supera o limite de saque então exibe mensagem" file="./spec/bank/saque_cp_spec.rb" time="0.000117"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="ContaPoupanca Saque quando supera o limite de saque e o saldo permanece" file="./spec/bank/saque_cp_spec.rb" time="0.000102"></testcase>
+<testcase classname="spec.exemplos_spec" name="suit rspec soma de valores" file="./spec/exemplos_spec.rb" time="0.000098"></testcase>
+</testsuite>
